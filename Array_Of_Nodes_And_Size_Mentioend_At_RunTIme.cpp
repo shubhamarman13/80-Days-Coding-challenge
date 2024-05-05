@@ -2,8 +2,7 @@
 using namespace std;
 struct Node
 {
-    Node *next;
-    int data;
+    Node *next;  int data;
 };
 int main()
 {

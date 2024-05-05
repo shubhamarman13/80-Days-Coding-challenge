@@ -28,10 +28,7 @@ int main()
     second->next = third;
     third->data = 30;
     third->next = NULL;
-    // Displaying the Nodes
-    // cout << head->data << endl;
-    // cout << second->data << endl;
-    // cout << third->data << endl;
+    
     head=Adding_at_starting(head,55);
     cout<<head->data;
     return 0;
